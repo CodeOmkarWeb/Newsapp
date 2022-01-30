@@ -3,6 +3,7 @@ import NewsItem from './NewsItem'
 import Spinner from './Spinner'
 import PropTypes from 'prop-types';
 import InfiniteScroll from "react-infinite-scroll-component";
+// Project done
 const News = (props) => {
     const [articles, setarticles] = useState([]);
     const [loading, setloading] = useState(true);
